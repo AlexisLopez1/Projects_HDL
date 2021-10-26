@@ -1,97 +1,23 @@
 # Loading project FullAdder_4b_TB
 vsim work.FullAdder_4b_TB
 # vsim work.FullAdder_4b_TB 
-# Start time: 19:15:08 on Oct 25,2021
+# Start time: 20:56:01 on Oct 25,2021
 # Loading work.FullAdder_4b_TB
 # Loading work.fullAdder_4b
 # Loading work.fullAdder
-# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'sum'.
-#    Time: 0 ps  Iteration: 0  Instance: /FullAdder_4b_TB/UUT File: /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v Line: 8
-# Error loading design
-# End time: 19:15:08 on Oct 25,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 1
-# Compile of FullAdder_4b_TB.v was successful.
-vsim work.FullAdder_4b_TB
-# vsim work.FullAdder_4b_TB 
-# Start time: 19:15:52 on Oct 25,2021
-# Loading work.FullAdder_4b_TB
-# Loading work.fullAdder_4b
-# Loading work.fullAdder
-add wave -position end  sim:/FullAdder_4b_TB/mode
 add wave -position end  sim:/FullAdder_4b_TB/a
 add wave -position end  sim:/FullAdder_4b_TB/b
 add wave -position end  sim:/FullAdder_4b_TB/cout
+add wave -position end  sim:/FullAdder_4b_TB/mode
 add wave -position end  sim:/FullAdder_4b_TB/sum
 run
-run -all
-#                  320Error: i=          1, j=         15, esperado          16 (10000), obtenido  Z (z0000)
-# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(21)
-#    Time: 320 ps  Iteration: 0  Instance: /FullAdder_4b_TB
-# Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 21
-# Compile of fullAdder_4b.v was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fullAdder_4b
-run -all
-#                  320Error: i=          1, j=         15, esperado          16 (10000), obtenido  Z (z0000)
-# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(21)
-#    Time: 320 ps  Iteration: 0  Instance: /FullAdder_4b_TB
-# Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 21
-# Compile of FullAdder_4b_TB.v was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.FullAdder_4b_TB
 run
-run -all
 #                  180Error: i=          1, j=          1, esperado  0 (00000), obtenido  Z (z0000)
 # ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
 #    Time: 180 ps  Iteration: 0  Instance: /FullAdder_4b_TB
 # Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-run -all
-#                  340Error: i=          2, j=          1, esperado  1 (00001), obtenido  Z (z0001)
-# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
-#    Time: 340 ps  Iteration: 0  Instance: /FullAdder_4b_TB
-# Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-# Compile of FullAdder_4b_TB.v was successful.
-# Compile of FullAdder_4b_TB.v was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.FullAdder_4b_TB
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'sum'. The port definition is at: /home/alopez/Projects/FullAdder_4b/src/fullAdder_4b.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /FullAdder_4b_TB/UUT File: /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v Line: 9
-run -all
-#                  180Error: i=          1, j=          1, esperado  0 (00000), obtenido  Z (z0000)
-# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
-#    Time: 180 ps  Iteration: 0  Instance: /FullAdder_4b_TB
-# Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-# Compile of fullAdder_4b.v was successful with warnings.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fullAdder_4b
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'sum'. The port definition is at: /home/alopez/Projects/FullAdder_4b/src/fullAdder_4b.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /FullAdder_4b_TB/UUT File: /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v Line: 9
-# Compile of fullAdder.v was successful.
-# Compile of fullAdder_4b.v was successful with warnings.
-# Compile of FullAdder_4b_TB.v was successful.
-# 3 compiles, 0 failed with no errors.
-run -all
-#                  180Error: i=          1, j=          1, esperado  0 (00000), obtenido  Z (z0000)
-# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
-#    Time: 180 ps  Iteration: 0  Instance: /FullAdder_4b_TB
-# Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-# Compile of fullAdder_4b.v was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.FullAdder_4b_TB
-# Loading work.fullAdder_4b
-# Loading work.fullAdder
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'sum'. The port definition is at: /home/alopez/Projects/FullAdder_4b/src/fullAdder_4b.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /FullAdder_4b_TB/UUT File: /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v Line: 9
-run -all
-#                  180Error: i=          1, j=          1, esperado  0 (00000), obtenido  Z (z0000)
-# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
-#    Time: 180 ps  Iteration: 0  Instance: /FullAdder_4b_TB
-# Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
+run
+run -continue
 run -all
 #                  340Error: i=          2, j=          1, esperado  1 (00001), obtenido  Z (z0001)
 # ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
@@ -112,47 +38,15 @@ run -all
 # ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
 #    Time: 510 ps  Iteration: 0  Instance: /FullAdder_4b_TB
 # Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-# Compile of fullAdder_4b.v was successful.
-# Compile of fullAdder_4b.v was successful.
-quit -sim
-# End time: 19:31:41 on Oct 25,2021, Elapsed time: 0:15:49
-# Errors: 0, Warnings: 4
-vsim work.FullAdder_4b_TB
-# vsim work.FullAdder_4b_TB 
-# Start time: 19:31:50 on Oct 25,2021
-# Loading work.FullAdder_4b_TB
-# Loading work.fullAdder_4b
-# Loading work.fullAdder
-# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (6) for port 'sum'. The port definition is at: /home/alopez/Projects/FullAdder_4b/src/fullAdder_4b.v(1).
-#    Time: 0 ps  Iteration: 0  Instance: /FullAdder_4b_TB/UUT File: /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v Line: 9
-quit -sim
-# End time: 19:32:33 on Oct 25,2021, Elapsed time: 0:00:43
-# Errors: 0, Warnings: 2
-# Compile of FullAdder_4b_TB.v was successful.
-vsim work.FullAdder_4b_TB
-# vsim work.FullAdder_4b_TB 
-# Start time: 19:32:50 on Oct 25,2021
-# Loading work.FullAdder_4b_TB
-# Loading work.fullAdder_4b
-# Loading work.fullAdder
-add wave -position end  sim:/FullAdder_4b_TB/mode
-add wave -position end  sim:/FullAdder_4b_TB/a
-add wave -position end  sim:/FullAdder_4b_TB/b
-add wave -position end  sim:/FullAdder_4b_TB/cout
-add wave -position end  sim:/FullAdder_4b_TB/sum
 run -all
-#                   10Error: i=          0, j=          0, esperado  0 (00000), obtenido  Z (z1111)
+#                  520Error: i=          3, j=          3, esperado  0 (00000), obtenido  Z (z0000)
 # ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
-#    Time: 10 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+#    Time: 520 ps  Iteration: 0  Instance: /FullAdder_4b_TB
 # Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-# Compile of fullAdder_4b.v was successful.
-restart -f
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.fullAdder_4b
 run -all
-#                  180Error: i=          1, j=          1, esperado  0 (00000), obtenido  Z (z0000)
+#                  660Error: i=          4, j=          1, esperado  3 (00011), obtenido  Z (z0011)
 # ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(23)
-#    Time: 180 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+#    Time: 660 ps  Iteration: 0  Instance: /FullAdder_4b_TB
 # Break in Task check_sum at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 23
-# End time: 19:35:48 on Oct 25,2021, Elapsed time: 0:02:58
+# End time: 21:27:01 on Oct 25,2021, Elapsed time: 0:31:00
 # Errors: 0, Warnings: 1
