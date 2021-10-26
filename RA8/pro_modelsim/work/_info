@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/alopez/intelFPGA/20.1/modelsim_ase/bin
+vFA
+Z0 !s110 1634915679
+!i10b 1
+!s100 ;g>gIT2Z^A?YY;m63f:^J1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IkaWYK0^L>E^CmEDE:QH003
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 d/home/alopez/Projects/RA8/pro_modelsim
+w1634911622
+8/home/alopez/Projects/RA8/pro_modelsim/FA.v
+F/home/alopez/Projects/RA8/pro_modelsim/FA.v
+!i122 8
+L0 1 9
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1634915679.000000
+!s107 /home/alopez/Projects/RA8/pro_modelsim/FA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/alopez/Projects/RA8/pro_modelsim/FA.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@f@a
+vFA4
+R0
+!i10b 1
+!s100 `I?CN2_M[:IKkcSC;a<4`2
+R1
+IfbFSzK?H26z1SM4zCNSHV2
+R2
+R3
+w1634912120
+8/home/alopez/Projects/RA8/pro_modelsim/FA4.v
+F/home/alopez/Projects/RA8/pro_modelsim/FA4.v
+!i122 9
+Z8 L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/alopez/Projects/RA8/pro_modelsim/FA4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/alopez/Projects/RA8/pro_modelsim/FA4.v|
+!i113 1
+R6
+R7
+n@f@a4
+vHA
+R0
+!i10b 1
+!s100 QEhD71:716C8TKNZ6nElm2
+R1
+IM:nVUZCLg8On3;Y8dOcdX2
+R2
+R3
+w1634911616
+8/home/alopez/Projects/RA8/pro_modelsim/HA.v
+F/home/alopez/Projects/RA8/pro_modelsim/HA.v
+!i122 10
+L0 1 7
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/alopez/Projects/RA8/pro_modelsim/HA.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/alopez/Projects/RA8/pro_modelsim/HA.v|
+!i113 1
+R6
+R7
+n@h@a
+vRA8
+R0
+!i10b 1
+!s100 F`WCJX5[f=4VeL=M:64;O2
+R1
+I0FgfgTXiWzJK0mC77BdlQ0
+R2
+R3
+w1634911043
+8/home/alopez/Projects/RA8/pro_modelsim/RA8.v
+F/home/alopez/Projects/RA8/pro_modelsim/RA8.v
+!i122 6
+R8
+R4
+r1
+!s85 0
+31
+!s108 1634915678.000000
+!s107 /home/alopez/Projects/RA8/pro_modelsim/RA8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/alopez/Projects/RA8/pro_modelsim/RA8.v|
+!i113 1
+R6
+R7
+n@r@a8
+vTB_RA8
+R0
+!i10b 1
+!s100 f0<A[TT?V;GY`L4Rgb6]E0
+R1
+IiIc6Y]M>XQ;3mz^7<M`PF0
+R2
+R3
+w1634913047
+8/home/alopez/Projects/RA8/pro_modelsim/TB_RA8.v
+F/home/alopez/Projects/RA8/pro_modelsim/TB_RA8.v
+!i122 7
+L0 1 38
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/alopez/Projects/RA8/pro_modelsim/TB_RA8.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/alopez/Projects/RA8/pro_modelsim/TB_RA8.v|
+!i113 1
+R6
+R7
+n@t@b_@r@a8

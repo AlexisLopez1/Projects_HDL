@@ -1,0 +1,22 @@
+/home/alopez/Projects/FullAdder_4b/src/fullAdder_4b.v {1 {vlog -work work -stats=none /home/alopez/Projects/FullAdder_4b/src/fullAdder_4b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullAdder_4b
+
+Top level modules:
+	fullAdder_4b
+
+} {} {}} /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v {1 {vlog -work work -stats=none /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FullAdder_4b_TB
+
+Top level modules:
+	FullAdder_4b_TB
+
+} {} {}} /home/alopez/Projects/FullAdder_4b/src/fullAdder.v {1 {vlog -work work -stats=none /home/alopez/Projects/FullAdder_4b/src/fullAdder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fullAdder
+
+Top level modules:
+	fullAdder
+
+} {} {}}

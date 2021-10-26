@@ -1,0 +1,96 @@
+# Loading project RA8_MS
+# reading /home/alopez/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project FullAdder_4b_TB
+# Compile of fullAdder.v was successful.
+# Compile of fullAdder_4b.v was successful.
+# Compile of FullAdder_4b_TB.v failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+dataset reload -f
+# Dataset not found: 
+dataset reload -f
+# Dataset not found: 
+# Compile of FullAdder_4b_TB.v was successful.
+# Load canceled
+# Compile of FullAdder_4b_TB.v was successful.
+vsim work.FullAdder_4b_TB
+# vsim work.FullAdder_4b_TB 
+# Start time: 14:01:58 on Oct 24,2021
+# Loading work.FullAdder_4b_TB
+# Loading work.fullAdder_4b
+# Loading work.fullAdder
+add wave -position end  sim:/FullAdder_4b_TB/UUT/S3/a
+add wave -position end  sim:/FullAdder_4b_TB/UUT/S3/b
+add wave -position end  sim:/FullAdder_4b_TB/UUT/S3/cin
+add wave -position end  sim:/FullAdder_4b_TB/UUT/S3/cout
+add wave -position end  sim:/FullAdder_4b_TB/UUT/S3/sum
+run
+run -continue
+run -all
+# Compile of FullAdder_4b_TB.v was successful.
+# Load canceled
+vsim work.FullAdder_4b_TB
+# End time: 15:48:29 on Oct 24,2021, Elapsed time: 1:46:31
+# Errors: 0, Warnings: 9
+# vsim work.FullAdder_4b_TB 
+# Start time: 15:48:29 on Oct 24,2021
+# Loading work.FullAdder_4b_TB
+# Loading work.fullAdder_4b
+# Loading work.fullAdder
+add wave -position end  sim:/FullAdder_4b_TB/a
+add wave -position end  sim:/FullAdder_4b_TB/b
+add wave -position end  sim:/FullAdder_4b_TB/cin
+add wave -position end  sim:/FullAdder_4b_TB/cout
+add wave -position end  sim:/FullAdder_4b_TB/sum
+run
+#                   20Error: i=          0, j=          1, esperado          -1 (11111111111111111111111111111111), obtenido  1 (00000001)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 20 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+run -continue
+#                   30Error: i=          0, j=          2, esperado          -2 (11111111111111111111111111111110), obtenido  2 (00000010)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 30 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+run -continue
+#                   40Error: i=          0, j=          3, esperado          -3 (11111111111111111111111111111101), obtenido  3 (00000011)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 40 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+run -all
+#                   50Error: i=          0, j=          4, esperado          -4 (11111111111111111111111111111100), obtenido  4 (00000100)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 50 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+run -all
+#                   60Error: i=          0, j=          5, esperado          -5 (11111111111111111111111111111011), obtenido  5 (00000101)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 60 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+step
+step
+step
+step
+step
+step -over
+step -over
+run -all
+#                   70Error: i=          0, j=          6, esperado          -6 (11111111111111111111111111111010), obtenido  6 (00000110)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 70 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+run -all
+#                   80Error: i=          0, j=          7, esperado          -7 (11111111111111111111111111111001), obtenido  7 (00000111)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 80 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+# Break key hit
+run -all
+#                   90Error: i=          0, j=          8, esperado          -8 (11111111111111111111111111111000), obtenido  8 (00001000)
+# ** Note: $stop    : /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v(37)
+#    Time: 90 ps  Iteration: 0  Instance: /FullAdder_4b_TB
+# Break in Task check_sub at /home/alopez/Projects/FullAdder_4b/proj_modelsim/FullAdder_4b_TB.v line 37
+# Break key hit
+# Break key hit
+# Break key hit
+# End time: 15:59:41 on Oct 24,2021, Elapsed time: 0:11:12
+# Errors: 0, Warnings: 1

@@ -1,0 +1,36 @@
+/home/alopez/Projects/RA8/pro_modelsim/RA8.v {1 {vlog -work work -stats=none /home/alopez/Projects/RA8/pro_modelsim/RA8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RA8
+
+Top level modules:
+	RA8
+
+} {} {}} /home/alopez/Projects/RA8/pro_modelsim/FA.v {1 {vlog -work work -stats=none /home/alopez/Projects/RA8/pro_modelsim/FA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA
+
+Top level modules:
+	FA
+
+} {} {}} /home/alopez/Projects/RA8/pro_modelsim/FA4.v {1 {vlog -work work -stats=none /home/alopez/Projects/RA8/pro_modelsim/FA4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module FA4
+
+Top level modules:
+	FA4
+
+} {} {}} /home/alopez/Projects/RA8/pro_modelsim/TB_RA8.v {1 {vlog -work work -stats=none /home/alopez/Projects/RA8/pro_modelsim/TB_RA8.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB_RA8
+
+Top level modules:
+	TB_RA8
+
+} {} {}} /home/alopez/Projects/RA8/pro_modelsim/HA.v {1 {vlog -work work -stats=none /home/alopez/Projects/RA8/pro_modelsim/HA.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module HA
+
+Top level modules:
+	HA
+
+} {} {}}

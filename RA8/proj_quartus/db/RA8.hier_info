@@ -1,0 +1,167 @@
+|RA8
+sum[0] << FA4:M1.port0
+sum[1] << FA4:M1.port0
+sum[2] << FA4:M1.port0
+sum[3] << FA4:M1.port0
+sum[4] << FA4:M2.port0
+sum[5] << FA4:M2.port0
+sum[6] << FA4:M2.port0
+sum[7] << FA4:M2.port0
+c_out << FA4:M2.port1
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+a[4] => a[4].IN1
+a[5] => a[5].IN1
+a[6] => a[6].IN1
+a[7] => a[7].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+b[4] => b[4].IN1
+b[5] => b[5].IN1
+b[6] => b[6].IN1
+b[7] => b[7].IN1
+c_in => c_in.IN1
+
+
+|RA8|FA4:M1
+sum[0] <= FA:M1.port0
+sum[1] <= FA:M2.port0
+sum[2] <= <GND>
+sum[3] <= <GND>
+c_out <= <GND>
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => ~NO_FANOUT~
+b[3] => ~NO_FANOUT~
+c_in => c_in.IN1
+
+
+|RA8|FA4:M1|FA:M1
+sum <= HA:M2.port0
+c_out <= M3.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+c_in => c_in.IN1
+
+
+|RA8|FA4:M1|FA:M1|HA:M1
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M1|FA:M1|HA:M2
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M1|FA:M2
+sum <= HA:M2.port0
+c_out <= M3.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+c_in => c_in.IN1
+
+
+|RA8|FA4:M1|FA:M2|HA:M1
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M1|FA:M2|HA:M2
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M2
+sum[0] <= FA:M1.port0
+sum[1] <= FA:M2.port0
+sum[2] <= <GND>
+sum[3] <= <GND>
+c_out <= <GND>
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => ~NO_FANOUT~
+a[3] => ~NO_FANOUT~
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => ~NO_FANOUT~
+b[3] => ~NO_FANOUT~
+c_in => c_in.IN1
+
+
+|RA8|FA4:M2|FA:M1
+sum <= HA:M2.port0
+c_out <= M3.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+c_in => c_in.IN1
+
+
+|RA8|FA4:M2|FA:M1|HA:M1
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M2|FA:M1|HA:M2
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M2|FA:M2
+sum <= HA:M2.port0
+c_out <= M3.DB_MAX_OUTPUT_PORT_TYPE
+a => a.IN1
+b => b.IN1
+c_in => c_in.IN1
+
+
+|RA8|FA4:M2|FA:M2|HA:M1
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+
+|RA8|FA4:M2|FA:M2|HA:M2
+sum <= M1.DB_MAX_OUTPUT_PORT_TYPE
+c_out <= M2.DB_MAX_OUTPUT_PORT_TYPE
+a => M1.IN0
+a => M2.IN0
+b => M1.IN1
+b => M2.IN1
+
+

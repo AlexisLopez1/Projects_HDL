@@ -1,0 +1,33 @@
+Ok		HEX0[0]	Location	PIN_C14	Yes			
+Ok		HEX0[1]	Location	PIN_E15	Yes			
+Ok		HEX0[2]	Location	PIN_C15	Yes			
+Ok		HEX0[3]	Location	PIN_C16	Yes			
+Ok		HEX0[4]	Location	PIN_E16	Yes			
+Ok		HEX0[5]	Location	PIN_D17	Yes			
+Ok		HEX0[6]	Location	PIN_C17	Yes			
+Ok		HEX1[0]	Location	PIN_C18	Yes			
+Ok		HEX1[1]	Location	PIN_D18	Yes			
+Ok		HEX1[2]	Location	PIN_E18	Yes			
+Ok		HEX1[3]	Location	PIN_B16	Yes			
+Ok		HEX1[4]	Location	PIN_A17	Yes			
+Ok		HEX1[5]	Location	PIN_A18	Yes			
+Ok		HEX1[6]	Location	PIN_B17	Yes			
+Ok		SW[0]	Location	PIN_C10	Yes			
+Ok		SW[1]	Location	PIN_C11	Yes			
+Ok		SW[2]	Location	PIN_D12	Yes			
+Ok		SW[3]	Location	PIN_C12	Yes			
+Ok		SW[4]	Location	PIN_A12	Yes			
+Ok		SW[5]	Location	PIN_B12	Yes			
+Ok		SW[6]	Location	PIN_A13	Yes			
+Ok		SW[7]	Location	PIN_A14	Yes			
+Ok		SW[8]	Location	PIN_B14	Yes			
+Ok		SW[9]	Location	PIN_F15	Yes			
+Ok		HEX2[0]	Location	PIN_B20	Yes			
+Ok		HEX2[1]	Location	PIN_A20	Yes			
+Ok		HEX2[2]	Location	PIN_B19	Yes			
+Ok		HEX2[3]	Location	PIN_A21	Yes			
+Ok		HEX2[4]	Location	PIN_B21	Yes			
+Ok		HEX2[5]	Location	PIN_C22	Yes			
+Ok		HEX2[6]	Location	PIN_B22	Yes			
+	<<new>>	<<new>>	<<new>>					
+
