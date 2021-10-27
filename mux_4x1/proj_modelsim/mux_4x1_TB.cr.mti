@@ -1,0 +1,15 @@
+/home/alopez/Projects/mux_4x1/src/mux4to1.v {1 {vlog -work work -stats=none /home/alopez/Projects/mux_4x1/src/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} /home/alopez/Projects/mux_4x1/proj_modelsim/TB_mux4x1.v {1 {vlog -work work -stats=none /home/alopez/Projects/mux_4x1/proj_modelsim/TB_mux4x1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module TB_mux2x16
+
+Top level modules:
+	TB_mux2x16
+
+} {} {}}
