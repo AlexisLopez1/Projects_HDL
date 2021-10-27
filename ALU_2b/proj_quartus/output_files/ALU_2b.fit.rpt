@@ -1,5 +1,5 @@
 Fitter report for ALU_2b
-Tue Oct 26 19:33:13 2021
+Tue Oct 26 20:27:40 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Tue Oct 26 19:33:13 2021       ;
+; Fitter Status                      ; Successful - Tue Oct 26 20:27:40 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ALU_2b                                      ;
 ; Top-level Entity Name              ; main                                        ;
@@ -1347,7 +1347,7 @@ Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
 Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "SW[9]" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
 Info (14896): Fitter has disabled Advanced Physical Optimization because it is not supported for the current family.
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
@@ -1370,7 +1370,7 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Info: Quartus Prime Fitter was successful. 0 errors, 8 warnings
     Info: Peak virtual memory: 720 megabytes
-    Info: Processing ended: Tue Oct 26 19:33:14 2021
+    Info: Processing ended: Tue Oct 26 20:27:41 2021
     Info: Elapsed time: 00:00:10
     Info: Total CPU time (on all processors): 00:00:08
 

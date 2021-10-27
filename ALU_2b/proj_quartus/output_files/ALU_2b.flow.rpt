@@ -1,5 +1,5 @@
 Flow report for ALU_2b
-Tue Oct 26 19:33:54 2021
+Tue Oct 26 20:29:38 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Tue Oct 26 19:33:54 2021       ;
+; Flow Status                        ; Successful - Tue Oct 26 20:29:38 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ALU_2b                                      ;
 ; Top-level Entity Name              ; main                                        ;
@@ -67,7 +67,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/26/2021 19:32:49 ;
+; Start date & time ; 10/26/2021 20:27:16 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ALU_2b              ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------+----------------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name          ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+----------------------+------------+
-; COMPILER_SIGNATURE_ID               ; 8796752213274.163529476903711          ; --            ; --                   ; --         ;
+; COMPILER_SIGNATURE_ID               ; 8796752213274.163529803604444          ; --            ; --                   ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                   ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                   ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; DE10_LITE_Golden_Top ; Top        ;
@@ -99,9 +99,9 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 360 MB              ; 00:00:12                           ;
 ; Fitter               ; 00:00:09     ; 1.0                     ; 720 MB              ; 00:00:08                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 363 MB              ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:02     ; 1.0                     ; 454 MB              ; 00:00:02                           ;
-; Total                ; 00:00:29     ; --                      ; --                  ; 00:00:25                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 366 MB              ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:03     ; 1.0                     ; 454 MB              ; 00:00:02                           ;
+; Total                ; 00:00:31     ; --                      ; --                  ; 00:00:25                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

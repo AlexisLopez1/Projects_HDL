@@ -1,84 +1,16 @@
-# Loading project FullAdder_4b_TB
-# reading /home/alopez/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
 # Loading project ALU_2b_TB
-# Compile of TB_ALU.v was successful.
 vsim work.TB_ALU
 # vsim work.TB_ALU 
-# Start time: 20:04:55 on Oct 26,2021
-# Loading work.TB_ALU
-# ** Error: (vsim-3033) Instantiation of 'ALU' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /TB_ALU File: /home/alopez/Projects/ALU_2b/proj_modelsim/TB_ALU.v Line: 13
-#         Searched libraries:
-#             /home/alopez/Projects/ALU_2b/proj_modelsim/work
-# Error loading design
-# End time: 20:04:55 on Oct 26,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 5
-# Compile of TB_ALU.v was successful.
-# Compile of main.v was successful.
-# 2 compiles, 0 failed with no errors.
-# Load canceled
-# Compile of ALU.v was successful.
-vsim work.TB_ALU
-# vsim work.TB_ALU 
-# Start time: 20:09:53 on Oct 26,2021
-# Loading work.TB_ALU
-# Loading work.ALU
-add wave -position end  sim:/TB_ALU/select
-add wave -position end  sim:/TB_ALU/c_in
-add wave -position end  sim:/TB_ALU/a
-add wave -position end  sim:/TB_ALU/b
-add wave -position end  sim:/TB_ALU/expected_value
-add wave -position end  sim:/TB_ALU/y
-run
-#  t    sel c_in  a   b  
-# 0 xxxx  x  xx xx  Esperado = xxxx Obtenido = xxxx error = 0
-run -continue
-run -continue
-run
-# 111 0000  0  10 01  Esperado = 0010 Obtenido = 0010 error = 0
-# 161 0000  1  10 01  Esperado = 0011 obtenido = 0011 error = 0
-run -all
-# 211 0001  0  10 01  Esperado = 0011 obtenido = 0011 error = 0
-# 261 0001  1  10 01  Esperado = 0100 obtenido = 0100 error = 0
-# 311 0010  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
-# 361 0010  1  10 01  Esperado = 0001 obtenido = 0001 error = 0
-# 411 0011  0  10 01  Esperado = 0001 obtenido = 0001 error = 0
-# 461 0011  1  10 01  Esperado = 0001 obtenido = 0001 error = 0
-# 511 0100  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
-# 561 0101  0  10 01  Esperado = 0011 obtenido = 0011 error = 0
-# 611 0110  0  10 01  Esperado = 0011 obtenido = 1101 error = 1
-# 661 0111  0  10 01  Esperado = 1101 obtenido = 0100 error = 1
-# 771 1000  0  10 01  Esperado = 0100 obtenido = 0000 error = 1
-# 881 0000  0  10 01  Esperado = 0001 obtenido = 0010 error = 1
-# 991 1000  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
-# Number of Errors:           4
-# ** Note: $finish    : /home/alopez/Projects/ALU_2b/proj_modelsim/TB_ALU.v(186)
-#    Time: 1500 ps  Iteration: 0  Instance: /TB_ALU
-# 1
-# Break in Module TB_ALU at /home/alopez/Projects/ALU_2b/proj_modelsim/TB_ALU.v line 186
-run -all
-write format wave -window .main_pane.wave.interior.cs.body.pw.wf /home/alopez/Projects/ALU_2b/proj_modelsim/wave.do
-quit -sim
-# End time: 20:21:53 on Oct 26,2021, Elapsed time: 0:12:00
-# Errors: 0, Warnings: 6
-# Compile of TB_ALU.v was successful.
-# Compile of ALU.v was successful.
-# 2 compiles, 0 failed with no errors.
-vsim work.TB_ALU
-# vsim work.TB_ALU 
-# Start time: 20:31:01 on Oct 26,2021
+# Start time: 20:32:07 on Oct 26,2021
 # Loading work.TB_ALU
 # Loading work.ALU
 do /home/alopez/Projects/ALU_2b/proj_modelsim/wave.do
 run
 #  t    sel c_in  a   b  
 # 0 xxxx  x  xx xx  Esperado = xxxx Obtenido = xxxx error = 0
-run -continue
-run -continue
-run
+run -all
 # 111 0000  0  10 01  Esperado = 0010 Obtenido = 0010 error = 0
 # 161 0000  1  10 01  Esperado = 0011 obtenido = 0011 error = 0
-run -all
 # 211 0001  0  10 01  Esperado = 0011 obtenido = 0011 error = 0
 # 261 0001  1  10 01  Esperado = 0100 obtenido = 0100 error = 0
 # 311 0010  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
@@ -95,5 +27,38 @@ run -all
 # Number of Errors:           0
 # ** Note: $finish    : /home/alopez/Projects/ALU_2b/proj_modelsim/TB_ALU.v(186)
 #    Time: 1500 ps  Iteration: 0  Instance: /TB_ALU
-# End time: 20:31:37 on Oct 26,2021, Elapsed time: 0:00:36
-# Errors: 0, Warnings: 0
+# 1
+# Break in Module TB_ALU at /home/alopez/Projects/ALU_2b/proj_modelsim/TB_ALU.v line 186
+run -continue
+restart -f
+quit -sim
+# End time: 20:33:21 on Oct 26,2021, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 1
+# Compile of TB_ALU.v was successful.
+vsim work.TB_ALU
+# vsim work.TB_ALU 
+# Start time: 20:34:08 on Oct 26,2021
+# Loading work.TB_ALU
+# Loading work.ALU
+do /home/alopez/Projects/ALU_2b/proj_modelsim/wave.do
+run -all
+#  t    sel c_in  a   b  
+# 0 xxxx  x  xx xx  Esperado = xxxx Obtenido = xxxx error = 0
+# 111 0000  0  10 01  Esperado = 0010 Obtenido = 0010 error = 0
+# 161 0000  1  10 01  Esperado = 0011 obtenido = 0011 error = 0
+# 211 0001  0  10 01  Esperado = 0011 obtenido = 0011 error = 0
+# 261 0001  1  10 01  Esperado = 0100 obtenido = 0100 error = 0
+# 311 0010  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
+# 361 0010  1  10 01  Esperado = 0001 obtenido = 0001 error = 0
+# 411 0011  0  10 01  Esperado = 0001 obtenido = 0001 error = 0
+# 461 0011  1  10 01  Esperado = 0001 obtenido = 0001 error = 0
+# 511 0100  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
+# 561 0101  0  10 01  Esperado = 0011 obtenido = 0011 error = 0
+# 611 0101  1  10 01  Esperado = 0011 obtenido = 0011 error = 0
+# 661 0110  0  10 01  Esperado = 1101 obtenido = 1101 error = 0
+# 771 0111  0  10 01  Esperado = 0100 obtenido = 0100 error = 0
+# 881 0111  1  10 01  Esperado = 0001 obtenido = 0001 error = 0
+# 991 1000  0  10 01  Esperado = 0000 obtenido = 0000 error = 0
+# Number of Errors:           0
+# End time: 20:35:19 on Oct 26,2021, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 2

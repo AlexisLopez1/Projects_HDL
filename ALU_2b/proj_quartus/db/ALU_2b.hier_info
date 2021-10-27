@@ -8,16 +8,16 @@ SW[5] => SW[5].IN1
 SW[6] => SW[6].IN1
 SW[7] => SW[7].IN1
 SW[8] => SW[8].IN1
-LEDR[0] <= ALU:comb_9.port0
-LEDR[1] <= ALU:comb_9.port0
-LEDR[2] <= ALU:comb_9.port0
-LEDR[3] <= ALU:comb_9.port0
-LEDR[4] <= <GND>
-LEDR[5] <= <GND>
-LEDR[6] <= <GND>
-LEDR[7] <= <GND>
-LEDR[8] <= <GND>
-LEDR[9] <= <GND>
+LEDR[0] << ALU:comb_9.port0
+LEDR[1] << ALU:comb_9.port0
+LEDR[2] << ALU:comb_9.port0
+LEDR[3] << ALU:comb_9.port0
+LEDR[4] << <GND>
+LEDR[5] << <GND>
+LEDR[6] << <GND>
+LEDR[7] << <GND>
+LEDR[8] << <GND>
+LEDR[9] << <GND>
 
 
 |main|ALU:comb_9

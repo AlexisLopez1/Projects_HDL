@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ALU_2b
-Tue Oct 26 19:33:03 2021
+Tue Oct 26 20:27:30 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Oct 26 19:33:03 2021       ;
+; Analysis & Synthesis Status        ; Successful - Tue Oct 26 20:27:30 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; ALU_2b                                      ;
 ; Top-level Entity Name              ; main                                        ;
@@ -247,7 +247,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Oct 26 19:32:48 2021
+    Info: Processing started: Tue Oct 26 20:27:15 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ALU_2b -c ALU_2b
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20029): Only one processor detected - disabling parallel compilation
@@ -319,7 +319,7 @@ Info (21057): Implemented 61 device resources after synthesis - the final resour
     Info (21061): Implemented 42 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 54 warnings
     Info: Peak virtual memory: 374 megabytes
-    Info: Processing ended: Tue Oct 26 19:33:03 2021
+    Info: Processing ended: Tue Oct 26 20:27:30 2021
     Info: Elapsed time: 00:00:15
     Info: Total CPU time (on all processors): 00:00:12
 
