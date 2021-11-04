@@ -1,0 +1,22 @@
+/home/alopez/Projects/Counter_8b/src/Counter_8b.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/Counter_8b.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_8b
+
+Top level modules:
+	Counter_8b
+
+} {} {}} /home/alopez/Projects/Counter_8b/src/Counter_8b_TB.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/Counter_8b_TB.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Counter_8b_TB
+
+Top level modules:
+	Counter_8b_TB
+
+} {} {}} /home/alopez/Projects/Counter_8b/src/ToggleFF.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/ToggleFF.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ToggleFF
+
+Top level modules:
+	ToggleFF
+
+} {} {}}
