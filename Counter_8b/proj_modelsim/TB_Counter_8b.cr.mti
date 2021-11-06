@@ -1,18 +1,14 @@
-/home/alopez/Projects/Counter_8b/src/Counter_8b.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/Counter_8b.v
+/home/alopez/Projects/Counter_8b/src/Counter_8b.v {0 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/Counter_8b.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module Counter_8b
+** Error: /home/alopez/Projects/Counter_8b/src/Counter_8b.v(3): Port mode is incompatible with declaration: T
+** Error: /home/alopez/Projects/Counter_8b/src/Counter_8b.v(3): Port mode is incompatible with declaration: clk
+** Error: /home/alopez/Projects/Counter_8b/src/Counter_8b.v(3): Port mode is incompatible with declaration: clr
+** Error: /home/alopez/Projects/Counter_8b/src/Counter_8b.v(6): Checker 'ToggleFF' not found.  Instantiation 'Q7' must be of a visible checker.
 
-Top level modules:
-	Counter_8b
+** Error: (vlog-13069) /home/alopez/Projects/Counter_8b/src/Counter_8b.v(14): near "end": syntax error, unexpected end.
 
-} {} {}} /home/alopez/Projects/Counter_8b/src/Counter_8b_TB.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/Counter_8b_TB.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module Counter_8b_TB
-
-Top level modules:
-	Counter_8b_TB
-
-} {} {}} /home/alopez/Projects/Counter_8b/src/ToggleFF.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/ToggleFF.v
+} {4.0 8.0 9.0 10.0} {}} /home/alopez/Projects/Counter_8b/src/ToggleFF.v {1 {vlog -work work -stats=none /home/alopez/Projects/Counter_8b/src/ToggleFF.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module ToggleFF
 

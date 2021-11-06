@@ -5,11 +5,18 @@ module ToggleFF(T, clk, clr, Q);
 	
 	always @(posedge clk) begin
 		
-		if(!clr) begin
+		if(clr == 1'b0) begin
 			Q <= 1'b0;
 		end
-		else if (T) begin
-			Q <= ~T;
+		else begin
+			case(T)
+				1'b0: begin
+					Q <= Q;
+				end
+				1'b1: begin
+					Q <= ~Q;
+				end
+			endcase
 		end
 	end
 	
