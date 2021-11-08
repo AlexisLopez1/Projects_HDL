@@ -18,23 +18,24 @@ module R9_TB();
 		d = 0;
 		
 		fork
+		//Default: q = 0 ? clr == 0
 		// Case 2 Async: q = data ? clr != 0 && load == 1
 		#5 clr = 1;
 		#5 load = 1;
 		#5 data = 2'b01;
 		
-		//Case 1 Sync: q = q-1 ? clk_enable == 0
+		//Case 3 Sync: q = q-1 ? clk_enable == 0
 		#10 load = 0;
 		
-		//Case 2 Sync: q = 0 ? ckl_enable == 1 && clr_s == 0
+		//Case 4 Sync: q = 0 ? ckl_enable == 1 && clr_s == 0
 		#15 clk_enable = 1;
 		
-		//Case 3 Sync: q = data ? ckl_enable == 1 && clr_s == 1 && load_s == 1
+		//Case 5 Sync: q = data ? ckl_enable == 1 && clr_s == 1 && load_s == 1
 		#20 clr_s = 1;
 		#20 load_s = 1;
 		#20 data = 2'b10;
 		
-		//Case 4 Sync: q = d ? ckl_enable == 1 && clr_s == 1 && load_s == 0
+		//Case 6 Sync: q = d ? ckl_enable == 1 && clr_s == 1 && load_s == 0
 		#25 load_s = 0;
 		#25 d = 2'b11;
 		join
