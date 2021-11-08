@@ -23,7 +23,7 @@ generate
 			// Input Ports
 			.T(En[i]),
 			.Clk(Clk),
-			.Resetn(Clr),
+			.Clr(Clr),
 			
 			// Output Ports
 			.Q(Count[i])

@@ -1,11 +1,11 @@
-module ToggleFF(T, clk, clr, Q);
+module ToggleFF(T, Clk, Clr, Q);
 
-	input T, clk, clr;
+	input T, Clk, Clr;
 	output reg Q;
 	
-	always @(posedge clk) begin
+	always @(posedge Clk) begin
 		
-		if(clr == 1'b0) begin
+		if(Clr == 1'b0) begin
 			Q <= 1'b0;
 		end
 		else begin
