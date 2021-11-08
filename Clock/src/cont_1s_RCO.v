@@ -9,7 +9,7 @@ module cont_1s_RCO
 		output RCO  // Ripple Carry Output
   	);
 
-  localparam CUENTA= 50000000; // 50MHz
+  localparam CUENTA= 10000000; // 50MHz
   integer conteo;
   wire w1; 
   always@ (negedge reset, posedge mclk)
