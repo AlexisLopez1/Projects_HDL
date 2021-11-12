@@ -1,11 +1,4 @@
-/home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/operators_pgk.sv {1 {vlog -work work -sv -stats=none /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/operators_pgk.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling package operators_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv {0 {vlog -work work -sv -stats=none /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv
+/home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv {0 {vlog -work work -sv -stats=none /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mux_nx1
 ** Error: /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv(4): (vlog-2164) Class or package 'operators_pkg' not found.
@@ -14,7 +7,14 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 ** Error: /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv(5): (vlog-2164) Class or package 'operators_pkg' not found.
 ** Error: /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/mux_nx1.sv(6): (vlog-2164) Class or package 'operators_pkg' not found.
 
-} {4.0 9.0} {}} /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/tb/mux_nx1_TB.sv {0 {vlog -work work -sv -stats=none /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/tb/mux_nx1_TB.sv
+} {4.0 9.0} {}} /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/operators_pgk.sv {1 {vlog -work work -sv -stats=none /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/src/operators_pgk.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package operators_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/tb/mux_nx1_TB.sv {0 {vlog -work work -sv -stats=none /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/tb/mux_nx1_TB.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module mux_nx1_TB
 ** Error: (vlog-13069) /home/alopez/Workspace/repos/PreSilicon-Verification/lab2/tb/mux_nx1_TB.sv(4): near "parameter": syntax error, unexpected parameter, expecting ')'.

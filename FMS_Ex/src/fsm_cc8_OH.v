@@ -13,13 +13,14 @@ S8 = 8,
 S9 = 9;
 reg [9:0] state, next;
 always @(posedge clk or negedge rst_n)
-if (!rst_n) begin
-state <= 0;
-state[S0] <= 1'b1;
-end
-else state <= next;
-always @(state or jmp or go or sk0 or sk1) begin
-next = 0;
+	if (!rst_n) begin
+	state <= 0;
+	state[S0] <= 1'b1;
+	end
+	else state <= next;
+
+	always @(state or jmp or go or sk0 or sk1) begin
+	next = 0;
 case (1'b1) // ambit synthesis case = full, parallel
 state[S0] : if (!go) next[S0]=1'b1;
 else if (jmp) next[S3]=1'b1;
