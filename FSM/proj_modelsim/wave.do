@@ -2,8 +2,8 @@ onerror {resume}
 quietly WaveActivateNextPane {} 0
 add wave -noupdate /FSM_TB/clk
 add wave -noupdate -color {Green Yellow} /FSM_TB/reset
-add wave -noupdate -color Orange /FSM_TB/jump
-add wave -noupdate -color Yellow /FSM_TB/state
+add wave -noupdate -color Orange /FSM_TB/w
+add wave -noupdate -color Yellow /FSM_TB/z
 TreeUpdate [SetDefaultTree]
 WaveRestoreCursors {{Cursor 1} {0 ps} 0}
 quietly wave cursor active 0

@@ -19,13 +19,26 @@ module FSM (
 	assign z = state;
 	
 	always @(posedge clk or negedge reset) begin
-		if (!reset) begin
-			state <= A;
-		end
+		if (!reset) state <= A;
 		else state <= next;
 	end
 	
-/*	always @(w) begin
+	always @(*) begin
+		case (state)
+			A: next <= (w) ? F : B;
+			B: next <= (w) ? F : C;
+			C: next <= (w) ? F : D;
+			D: next <= (w) ? F : E;
+			E: next <= (w) ? F : E;
+			F: next <= (w) ? G : B;
+			G: next <= (w) ? H : B;
+			H: next <= (w) ? I : B;
+			I: next <= (w) ? I : B;
+			default: next <= A;			
+		endcase
+	end
+	
+/* always @(w) begin
 		if(!w)begin
 			next <= 	(state == A) ? B :
 						(state == B) ? C :
@@ -41,39 +54,5 @@ module FSM (
 						F; 
 		end
 	end */
-
-	always @(w) begin
-		next = 4'bxxxx;
-		case (state)
-			A: if(w) next <= F;
-				else	 next <= B;
-				
-			B: if(w) next <= F;
-				else 	 next <= C;
-				
-			C: if(w) next <= F;
-				else 	 next <= D;
-				
-			D: if(w) next <= F;
-				else 	 next <= E;
-				
-			E: if(w) next <= F;
-				else 	 next <= E;
-				
-			F: if(w) next <= G;
-				else 	next <= B;
-				
-			G: if(w) next <= H;
-				else 	next <= B;
-				
-			H: if(w) next <= I;
-				else 	next <= B;
-				
-			I:	if(w) next <= I;
-				else 	next <= B;
-			default: 
-				next <= A;
-		endcase
-	end
 	
 endmodule 

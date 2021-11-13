@@ -3,40 +3,31 @@ module FSM_TB();
 	
 	reg clk;
 	reg reset; 
-	reg jump;
-	wire [3:0] state;
+	reg w;
+	wire [3:0] z;
 	integer i;
 	
-	FSM fsm(.clk(clk), .reset(reset), .w(jump), .z(state));
+	FSM fsm(.clk(clk), .reset(reset), .w(w), .z(z));
 	
 	initial begin
-		clk = 1;
-		reset = 0;
+		clk = 0;
+		reset = 1;
 		
-		for(i = 0; i <= 4; i = i+1) begin
-			#1 clk = ~clk;
-				reset = 1;
-				jump = 0;		
 			
-			$display("w = %b	z = %b", jump, state);		
+		for(i = 0; i <= 15; i = i+1) begin
+			#1 clk = ~clk;
+			w = 0;	
+			if (clk == 1) 			
+			$display("w = %b	z = %b", w, z);		
 		end	
 		
-		for(i = 0; i <= 4; i = i+1) begin
-			#1 clk = ~clk;
-				reset = 1;
-				jump = 1;	
-	
-			$display("w = %b	z = %b", jump, state);	
-		end	
 		
-		for(i = 0; i <= 4; i = i+1) begin
+		for(i = 0; i <= 15; i = i+1) begin
 			#1 clk = ~clk;
-				reset = 1;
-				jump = ~jump;	
-	
-			$display("w = %b	z = %b", jump, state);	
-		end
-	
+			w = 1;
+			if (clk == 1)	
+			$display("w = %b	z = %b", w, z);	
+		end		
 	end
 
 endmodule 
